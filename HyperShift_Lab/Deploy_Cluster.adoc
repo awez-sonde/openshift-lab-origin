@@ -67,7 +67,7 @@ hcp create cluster aws \
   --name production \
   --infra-id prod-${GUID} \
   --region us-west-1 \
-  --zones us-west-1b,us-west-1c \
+  --zones us-west-1a,us-west-1c \
   --instance-type m6a.large \
   --root-volume-type gp3 \
   --root-volume-size 100 \
